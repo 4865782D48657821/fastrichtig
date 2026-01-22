@@ -1,7 +1,40 @@
 baseURL = 'https://fastrichtig.org/'
 languageCode = 'de-de'
 title = 'Fastrichtig'
+logoText = "fastrichtig"
 theme = 'terminal'
-[caches]
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 4 
+  fullWidthTheme = false
+  centerTheme = true
+  subtitle = "A simple, retro theme for Hugo"
+  keywords = ""
+  copyright = ""
+  menuMore = "Show more"
+  readMore = "Read more"
+  readOtherPosts = "Read other posts"
+  [params.logo]
+    logoText = "fast richtig."
+    logoHomeLink = "/"
+[menu]
+  [[menu.main]]
+    identifier = "hardware"
+    name = "Hardware"
+    url = "/hardware"
+  [[menu.main]]
+    identifier = "Design"
+    name = "Design"
+    url = "/design"
+  [[menu.main]]
+    identifier = "Programmierung"
+    name = "Programmierung"
+    url = "/programming"
+ [[menu.main]]
+    identifier = "Über mich"
+    name = "Über mich"
+    url = "/about"
+
+[cashes]
   [caches.images]
     dir = ':cacheDir/images'
