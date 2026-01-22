@@ -1,0 +1,4 @@
+baseURL = 'https://fastrichtig.org/'
+languageCode = 'de-de'
+title = 'Fastrichtig'
+theme = 'terminal'
